@@ -1,0 +1,8 @@
+# Ignore โฟลเดอร์ย่อยทั้งหมดที่อยู่ใน data/
+data/*/
+MODEL_train/runs/*/
+MODEL_train/runs_new/*/
+
+# Ignore all PyTorch weights
+*.pt
+*.pth
